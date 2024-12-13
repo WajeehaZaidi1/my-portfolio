@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from "react";
 import Card from "./Card";
-import { workflowData } from "../data";
+import { workflowData } from "../data.js";
 
 const Workflow = () => {
   const [animate, setAnimate] = useState(true);

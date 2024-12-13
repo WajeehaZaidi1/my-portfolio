@@ -1,7 +1,7 @@
 // src/components/Portfolio.jsx
 
 import React, { useState } from "react";
-import { projects } from "../data"; // Import the data
+import { projects } from "../data.js"; // Import the data
 import ProjectCard from "./ProjectCard"; // Import the ProjectCard component
 import Modal from "./Modal"; // Import the Modal component
 import Container from "./Container";
