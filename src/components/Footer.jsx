@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "/Users/macbook/Documents/my-portfolio/src/assets/w.png";
+import logo from "../assets/w.png";
 
 const Footer = () => {
   return (
