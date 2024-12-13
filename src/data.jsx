@@ -1,4 +1,4 @@
-// src/data.js
+// src/data
 import { FaCode, FaMobileAlt, FaDatabase, FaCloud } from "react-icons/fa";
 import { FaEnvelope, FaLocationArrow, FaPhoneAlt } from "react-icons/fa";
 export const workflowData = [
@@ -31,7 +31,7 @@ export const workflowData = [
     iconColor: "text-pink-500",
   },
 ];
-// src/data.js
+// src/data
 
 export const projects = [
   {
@@ -83,7 +83,7 @@ export const projects = [
       "https://images.unsplash.com/photo-1523731407965-2430cd12f5e4?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
   },
 ];
-// data.js
+// data
 export const blogs = [
   {
     title: "Esha waheed",

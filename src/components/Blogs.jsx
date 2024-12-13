@@ -4,7 +4,7 @@ import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 import { Autoplay } from "swiper/modules"; // Correct import for v9+
-import { blogs } from "../data.js";
+import { blogs } from "../data";
 import { useNavigate } from "react-router-dom";
 const Blog = () => {
   const navigate = useNavigate();
