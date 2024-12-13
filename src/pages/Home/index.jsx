@@ -4,7 +4,7 @@ import Profile from "../../components/Profile";
 import Profile2 from "../../components/Profile2";
 import Workflow from "../../components/Workflow";
 import Portfolio from "../../components/Portfolio";
-import ProjectIdea from "../../components/ProjectIdea";
+import ProjectIdea from "../../components/Projectidea";
 import Blogs from "../../components/Blogs";
 import Skills from "../../components/Skills";
 import ProjectDiscussion from "../../components/ProjectDiscussion";
