@@ -49,44 +49,53 @@ const Portfolio = () => {
   return (
     <section className="w-full bg-gradient-to-r from-purple-200 via-pink-200 to-blue-200 py-16">
       {/* Heading */}
-      <Container>  <div>
-    <div className="text-center mb-12">
-        <h2 className="text-4xl font-bold text-gray-800">Portfolio</h2>
-        <p className="text-gray-600 mt-4">
-          Check out some of my projects below.
-        </p>
-      </div>
+      <Container>
+        {" "}
+        <div>
+          <div className="text-center mb-12">
+            <h2 className="text-4xl font-bold text-gray-800">Portfolio</h2>
+            <p className="text-gray-600 mt-4">
+              Check out some of my projects below.
+            </p>
+          </div>
 
-      {/* Cards */}
-      <div className="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 px-6">
-        {projects.slice(0, visibleProjects).map((project) => (
-          <ProjectCard key={project.id} project={project} openModal={openModal} />
-        ))}
-      </div>
+          {/* Cards */}
+          <div className="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 px-6">
+            {projects.slice(0, visibleProjects).map((project) => (
+              <ProjectCard
+                key={project.id}
+                project={project}
+                openModal={openModal}
+              />
+            ))}
+          </div>
 
-      {/* More Projects or Show Less Button */}
-      <div className="flex justify-center mt-8">
-        {visibleProjects < projects.length && (
-          <button
-            onClick={loadMoreProjects}
-            className="rounded-md bg-purple-600 py-2 px-6 text-white text-lg font-semibold hover:bg-purple-700"
-          >
-            More Projects
-          </button>
-        )}
+          {/* More Projects or Show Less Button */}
+          <div className="flex justify-center mt-8">
+            {visibleProjects < projects.length && (
+              <button
+                onClick={loadMoreProjects}
+                className="rounded-md bg-purple-600 py-2 px-6 text-white text-lg font-semibold hover:bg-purple-700"
+              >
+                More Projects
+              </button>
+            )}
 
-        {isShowingAll && (
-          <button
-            onClick={toggleProjects}
-            className="rounded-md bg-gray-300 py-2 px-6 text-gray-800 text-lg font-semibold hover:bg-gray-400 ml-4"
-          >
-            Show Less
-          </button>
-        )}
-      </div>
-</div></Container>
+            {isShowingAll && (
+              <button
+                onClick={toggleProjects}
+                className="rounded-md bg-gray-300 py-2 px-6 text-gray-800 text-lg font-semibold hover:bg-gray-400 ml-4"
+              >
+                Show Less
+              </button>
+            )}
+          </div>
+        </div>
+      </Container>
       {/* Show Modal if a project is selected */}
-      {selectedProject && <Modal project={selectedProject} onClose={closeModal} />}
+      {selectedProject && (
+        <Modal project={selectedProject} onClose={closeModal} />
+      )}
     </section>
   );
 };
