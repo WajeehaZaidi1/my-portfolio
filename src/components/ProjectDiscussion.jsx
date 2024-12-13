@@ -2,7 +2,7 @@ import React from "react";
 import { FaPaperPlane } from "react-icons/fa"; // Importing icons
 import { contactCardsData } from "../data";
 import ContactCard from "./ContactCard"; // Importing ContactCard component
-import ProjectInquiryForm from "./ProjectInquiryForm.JSX";
+import ProjectInquiryForm from "./ProjectInquiryForm";
 
 const ProjectDiscussion = () => {
   console.log(contactCardsData);
