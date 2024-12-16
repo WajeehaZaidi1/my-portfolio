@@ -1,5 +1,5 @@
 // tailwind.config.js
-module.exports = {
+export default {
   content: [
     "./src/**/*.{html,js,jsx,ts,tsx}", // Ensure Tailwind processes your JSX files
   ],
@@ -28,7 +28,6 @@ module.exports = {
         },
       },
       animation: {
-        
         // Apply the slide-in animation
         slideInFromRight: "slideInFromRight 1s ease-out forwards",
         // Apply the spin animation (infinite rotation)
