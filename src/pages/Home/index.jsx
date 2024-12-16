@@ -40,7 +40,7 @@ const Home = () => {
         <ResumeModal
           isOpen={isModalOpen}
           onClose={closeModal}
-          resumeUrl="public/Resume.pdf" // Replace with the actual resume URL
+          resumeUrl="/Resume.pdf" // Replace with the actual resume URL
         />
       )}
     </>
