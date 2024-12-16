@@ -35,7 +35,7 @@ const Profile = () => {
         {/* Right Side - Image */}
         <div className="w-full md:w-[30%] justify-end ml-auto text-center md:ml-8">
           <img
-            src="src/assets/wajeeha.jpg" // Replace with your image URL
+            src="/assets/wajeeha.jpg" // Replace with your image URL
             alt="Wajeeha"
             className="rounded-md w-48 h-58 object-cover shadow-lg flex hover:scale-125 transform-all ease-linear duration-300"
           />

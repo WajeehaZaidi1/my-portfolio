@@ -87,47 +87,47 @@ export const projects = [
 export const blogs = [
   {
     title: "Esha waheed",
-    img: "src/assets/esha.jpg",
+    img: "/assets/esha.jpg",
     content: "Future technologist and a very talented content writer",
   },
   {
     title: "Ghaniya Usman",
-    img: "src/assets/ghaniya.png",
+    img: "/assets/ghaniya.png",
     content: "Online Freelancer and Web Developer",
   },
   {
     title: "Salman Amin",
-    img: "src/assets/Salman.jpg",
+    img: "/assets/Salman.jpg",
     content: "IT Developer and entrepreneur ",
   },
   {
     title: "Yasoob Zaidi ",
-    img: "src/assets/Yasoob.jpg",
+    img: "/assets/Yasoob.jpg",
     content: "Fashion Model and TV actor",
   },
   {
     title: "Faheem Zaidi",
-    img: "src/assets/faheem.jpeg",
+    img: "/assets/faheem.jpeg",
     content: "A full time Student and a cricket enthusiastic",
   },
   {
     title: "Aleena Abid",
-    img: "src/assets/Aleena.jpg",
+    img: "/assets/Aleena.jpg",
     content: "Chatbot developer and CS student from UET",
   },
   {
     title: "Simra Batool",
-    img: "src/assets/simra.jpg",
+    img: "/assets/simra.jpg",
     content: "future Software Engineer",
   },
   {
     title: "Aliya Naqvi",
-    img: "src/assets/aliya.png",
+    img: "/assets/aliya.png",
     content: "travel and tourism planner and own a photgraphy company",
   },
   {
     title: "Asim Hasan",
-    img: "src/assets/asim.jpg",
+    img: "/assets/asim.jpg",
     content: "Area Sales Manager in dawn company",
   },
 ];

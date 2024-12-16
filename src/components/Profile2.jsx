@@ -9,7 +9,7 @@ const Profile2 = ({ openModal }) => {
         <div className="w-full md:w-1/3 bg-gray-100 p-4 flex flex-col items-center">
           {/* Picture */}
           <img
-            src="src/assets/wajeeha.jpg" // Replace with your image URL
+            src="/assets/wajeeha.jpg" // Replace with your image URL
             alt="Profile"
             className="w-32 h-32 rounded-full object-cover shadow-lg mb-4 animate-spin"
           />
